@@ -6,6 +6,5 @@ var arrayStringsAreEqual = function(word1, word2) {
     word2.forEach(e=>{
         b+=e
     })
-    return a == b
-    
+    return a == b  
 };
