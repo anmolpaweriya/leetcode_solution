@@ -6,7 +6,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
 	let a = nums1.length
 	
 	if (a % 2 == 0) {
-	return (nums1[a/2 - 1] + nums1[a/2]) / 2
+		return (nums1[a/2 - 1] + nums1[a/2]) / 2
 	}
 	else {
 		return nums1[Math.round(a/2-1)]
