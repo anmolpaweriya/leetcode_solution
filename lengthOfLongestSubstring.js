@@ -28,15 +28,11 @@ const lengthOfLongestSubstring = function (s) {
                                     break;
                                 }
                             }
-
                         }
-
                     }
                 }
                 if (temp == 0) { b = a }
             }
-
-
         }
     }
 
